@@ -116,7 +116,7 @@ class ClientMixin(object):
 
         if data is not None:
             kwargs['json'] = data
-
+            
         return self._do_request(
             method.lower(),
             '/'.join((self.base_url, endpoint)),

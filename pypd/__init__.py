@@ -12,6 +12,7 @@ from .models.alert import Alert
 from .models.incident import Incident
 from .models.integration import Integration
 from .models.log_entry import LogEntry
+from .models.extension import Extension
 from .models.maintenance_window import MaintenanceWindow
 from .models.note import Note
 from .models.notification import Notification
